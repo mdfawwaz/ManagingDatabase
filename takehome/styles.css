@@ -1,0 +1,157 @@
+/* styles.css */
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffb2;
+}
+
+footer {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social a {
+    color: #fde428;
+    transition: color 0.5s ease;
+}
+
+.social a:hover {
+    color: #00fff7;
+}
+
+header {
+    background-color: #1c8b14;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+h2 {
+    align-items: center;
+    text-align: center;
+    color: #002e5b;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
+
+.skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.skills-box {
+    width: calc(33.33% - 10px);
+    margin-bottom: 15px;
+}
+
+.skills-box i {
+    margin-right: 10px;
+}
+
+body {
+    background-color: rgb(73, 0, 66);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #051258;
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+.skills-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+.skills-list li i {
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #524545;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffff;
+    color: #1c8b14;
+
+}
+
+.center-content {
+    text-align: center;
+}
+
+.interactive-paragraph {
+    text-align: justify;
+}

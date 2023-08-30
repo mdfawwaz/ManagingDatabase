@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Wikipedia</title>
+
+    
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    
+    padding: 0;
+}
+
+.profile-pic {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+       
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffb2;
+}
+
+footer {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .social {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+        }
+
+        .social li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social a {
+            color: #002e5b;
+            transition: color 0.5s ease;
+        }
+
+        .social a:hover {
+            color: #fde428;
+        }
+
+header {
+    background-color: #1c8b14;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
+    text-align: center;
+}
+h1:hover{
+    cursor : default;
+}
+h2:hover{
+    cursor: pointer;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+h2{
+    align-items: center;
+    color: #002e5b;
+}
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
+.skills-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .skills-box {
+        width: calc(33.33% - 10px);
+        margin-bottom: 15px;
+    }
+
+    .skills-box i {
+        margin-right: 10px;
+    }
+body {
+        background-color:#4d2468;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    header {
+        background-color: #00520f;
+    }
+
+    main {
+        background-color: #fff;
+        border-radius: 25px;
+    }
+    .skills-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .skills-list li {
+        margin-bottom: 10px;
+    }
+
+    .skills-list li i {
+        margin-right: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        text-align: l
+        eft;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .center-content {
+        text-align: center;
+    }
+
+    .interactive-paragraph {
+        text-align: justify;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Mohammed Fawwazuddin</h1>
+        
+    </header>
+
+    <main>
+        <section id="about">
+            <h2 onclick="hideIntro()">About Me </h2>
+        <div id = "intro">
+            <div class="content" id="about">
+            <div class="center-content">
+                <img src="fawazport.jpg" alt="Profile Picture" class="profile-pic">
+                <br />
+                <br />
+            <p class="interactive-paragraph">Hello Everyone. This is <b>Mohammed Fawwazuddin</b>, a graduate student of CBIT.</p>
+              <p class="interactive-paragraph"> He is currently working as a Software Engineer Trainee at Prodapt, Hyderabad
+            </p>
+            <p class="interactive-paragraph">
+                Fawwaz has always used the term <b>"Raised In Saudi Born In India"</b>. </p>
+                <p class="interactive-paragraph"> Fawwaz is also an author where he titled his Debut Book as  <b>"RISBII"</b> 
+                
+            </p>
+        </section>
+    </div>
+    </div>
+    
+
+        <section id="marks">
+            <h2 onclick="hideEdu()"><b>Education Qualification</b></h2>
+            <div id = "Edu">
+
+            <table>
+                <tr>
+                    <th>School Name</th>
+                    <th>Standard</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>IISR, KSA</td>
+                    <td>10<sup>th</sup></td>
+                    <td>91 %</td>
+                </tr>
+                <tr>
+                    <td>IISR, KSA</td>
+                    <td>12<sup>th</sup></td>
+                    <td>Enough to get admitted in CBIT</td>
+                </tr>
+                <tr>
+                    <td>CBIT Hyderabad</td>
+                    <td>B.E - I.T</td>
+                    <td>Enough to get placed in any Company</td>
+                </tr>
+            </table>
+            </div>
+        </section>
+
+        <section id="early-life">
+            <h2 onclick="hideCerts()"><b>Certifications</b></h2>
+            <div id = "cert">
+
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>Offered By</th>
+                </tr>
+                <tr>
+                    <td>IT Security: Defense against the digital dark arts</td>
+                    <td>Google</td>
+                </tr>
+                <tr>
+                    <td>System Administration and IT Infrastructure Service</td>
+                    <td>Google</td>
+                </tr>
+                <tr>
+                    <td>The Bits and Bytes of Computer Networking</td>
+                    <td>Google</td>
+                </tr>
+                <tr>
+                    <td>Aviator Program</td>
+                    <td>RedBull</td>
+                </tr>
+            </table>
+            </div>
+        </section>
+        <section id="skills">
+            <h2 onclick="hideSkill()"><b>Soft Skills</b></h2>
+            <div id = "skill">
+
+            <div class="skills-row">
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i> Team Work
+                </div>
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i>Collaboration
+                </div>
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i> Leadership
+                </div>
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i> Communication
+                </div> 
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i> Problem-Solving
+                </div>
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i> Time Management
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 onclick="hideSkills()"><b> Technical Skills</b></h2>
+            <div id = "skills">
+
+            <div class="skills-row">
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i> HTML5, CSS3
+                </div>
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i> C++
+                </div>
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i> Java
+                </div>
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i> SQL
+                </div>
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i>Python
+                </div>
+                <div class="skills-box">
+                    <i class="fa fa-check-circle"></i> C
+                </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="achievements">
+            <h2 onclick="hideAch()"><b>Achievements</b></h2>
+            <div id = "ach">
+
+            <table>
+                <tr>
+                    <th>Position</th>
+                    <th>Role</th>
+                </tr>
+                <tr>
+                    <td>Joint Secretary</td>
+                    <td>Finance Department at CBCC</td>
+                </tr>
+                <tr>
+                    <td>Vice President</td>
+                    <td>Finance Department at CBCC</td>
+                </tr>
+                <tr>
+                    <td>Anchor</td>
+                    <td>Various events for 3 years</td>
+                </tr>
+                <tr>
+                    <td>Microsoft Student Ambassador </td>
+                    <td>Representing Microsoft at Campus</td>
+                </tr>
+            </table>
+            </div>
+        </section>
+
+       
+
+    <footer>
+        <ul class="social">
+            <li><a href="mailto:fawazuddin.m@gmail.com" target="_blank"><i class="fa fa-google"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/mohammed-fawwazuddin target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/mdfawwazuddin" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+    </main>
+    <script src = "hide.js"></script>
+</body>
+</html>
